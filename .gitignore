@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.venv_old/
+
+# IDE settings
+.claude/
+.kiro/
+.vscode/
+
+# Test cache
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated files
+correlation_analysis.png
+
+# Data files - too large for GitHub
+data/*.csv
+data/cleaned_accidents.csv
+data/model_ready.csv
+
+# Model files - too large for GitHub (can be regenerated)
+models/*.pkl
+
+
