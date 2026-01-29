@@ -1,5 +1,5 @@
 [project]
-name = "ia-project"
+name = "."
 version = "0.1.0"
 description = "French Road Accident Analysis and Visualization"
 readme = "README.md"
