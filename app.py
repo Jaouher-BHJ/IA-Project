@@ -3,6 +3,14 @@ Road Accident Analysis Dashboard
 
 Main Streamlit application for exploring French road accident data.
 """
+import os
+import subprocess
+
+# Train model if it doesn't exist
+if not os.path.exists("models/rf_nopca_multitarget.pkl"):
+    print("Training model before app launch...")
+    subprocess.run(["python", "models/compare_multitarget_models.py"], check=True)
+
 import streamlit as st
 from utils.data_loader import (
     load_cleaned_data,
