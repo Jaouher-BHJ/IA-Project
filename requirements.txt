@@ -1,0 +1,23 @@
+# Core libraries
+pandas
+numpy
+scikit-learn
+xgboost
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Web app framework
+streamlit
+
+# Utils / data manipulation
+joblib
+pickle-mixin
+
+# Optional but often needed
+requests
+
+
+pydeck

@@ -25,9 +25,7 @@ wheels/
 correlation_analysis.png
 
 # Data files - too large for GitHub
-data/*.csv
-data/cleaned_accidents.csv
-data/model_ready.csv
+data/*[0..9]*.csv
 
 # Model files - too large for GitHub (can be regenerated)
 models/*.pkl
