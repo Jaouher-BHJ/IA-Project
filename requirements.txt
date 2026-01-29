@@ -1,3 +1,4 @@
+streamlit
 pandas
 numpy
 scikit-learn
@@ -5,8 +6,5 @@ xgboost
 matplotlib
 seaborn
 plotly
-streamlit
 joblib
-pickle-mixin
-requests
-pydeck
+tqdm
